@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 3em;
+    width: 50vw;
+}
+.title-text{
+    display: flex;
+}
+.heading{
+    width: 50%;
+}
+.heading span{
+    font-family: 'PT Serif', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    transform: rotate(90deg);
+}
+.information{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+.information h1{
+    margin: 0;
+    font-size: 1.1rem;
+}
+.information span{
+    font-size: 1.1rem;
+}
+img{
+    width: 238px;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    object-fit: cover;
+    margin-top: 5em;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+.job-role{
+    display: block;
+    position: relative;
+    /* padding: 1.5em;
+    margin: 1em; */
+    top: 138px;
+    left: 120px;
+    font-family: 'PT Serif', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.photo-2, .photo-5{
+    margin-top: 8em;
+}
